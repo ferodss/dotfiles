@@ -46,4 +46,5 @@ alias grep="grep --color=auto"
 alias phps="php -S 127.0.0.1:9000"
 
 # PHPBrew
-source /Users/ferodss/.phpbrew/bashrc
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
