@@ -84,65 +84,20 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSFontPanelPreviewHeight</key>
-	<real>0.0</real>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/iterm2</string>
+	<string>~/Projects/dotfiles/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
+	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-	<key>NSScrollViewShouldScrollUnderTitlebar</key>
-	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>322</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
-	<key>NSToolbar Configuration Terminal Toolbar</key>
-	<dict>
-		<key>TB Display Mode</key>
-		<integer>1</integer>
-		<key>TB Icon Size Mode</key>
-		<integer>1</integer>
-		<key>TB Is Shown</key>
-		<integer>0</integer>
-		<key>TB Size Mode</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
-	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>1856 447 445 77 1280 -458 1200 1897 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>1453 983 606 456 1280 -458 1200 1897 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>1570 670 620 392 1280 -458 1200 1897 </string>
+	<string>1489 -70 924 485 1280 -602 1200 1897 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1280 -453 1200 939 1280 -458 1200 1897 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2 -238 1200 264 0 0 1280 777 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>131 31 710 746 0 0 1280 777 </string>
+	<string>1280 -597 1200 939 1280 -602 1200 1897 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -883,102 +838,12 @@
 			<string>/Users/ferodss</string>
 		</dict>
 	</array>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
-	<integer>0</integer>
-	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
-	<integer>1</integer>
-	<key>NoSyncHaveShownPromoWithId_4</key>
-	<true/>
-	<key>NoSyncInstallationId</key>
-	<string>B64E337B-BF68-4D7F-A153-B59387603586</string>
-	<key>NoSyncLastTipTime</key>
-	<real>485950032.45712501</real>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
-	<key>NoSyncPermissionToShowTip</key>
-	<true/>
-	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>477567034.41541302</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>477566882.62915999</real>
+	<real>486560444.82794499</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>477566874.24240702</real>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-		<string>0000</string>
-		<string>0001</string>
-		<string>0002</string>
-		<string>0003</string>
-		<string>0004</string>
-		<string>0005</string>
-		<string>0006</string>
-		<string>0007</string>
-		<string>0008</string>
-		<string>0009</string>
-		<string>0010</string>
-		<string>0011</string>
-		<string>0012</string>
-		<string>0013</string>
-		<string>0014</string>
-		<string>0015</string>
-		<string>0016</string>
-		<string>0017</string>
-		<string>0018</string>
-		<string>0019</string>
-		<string>0020</string>
-		<string>0021</string>
-		<string>0022</string>
-		<string>0023</string>
-		<string>0024</string>
-		<string>0025</string>
-		<string>0026</string>
-		<string>0027</string>
-		<string>0028</string>
-		<string>0029</string>
-		<string>0030</string>
-		<string>0031</string>
-		<string>0032</string>
-		<string>0033</string>
-		<string>0034</string>
-		<string>0035</string>
-		<string>0036</string>
-		<string>0037</string>
-		<string>0038</string>
-		<string>0039</string>
-		<string>0040</string>
-		<string>0041</string>
-		<string>0042</string>
-		<string>0043</string>
-		<string>0044</string>
-		<string>0045</string>
-		<string>0046</string>
-		<string>0047</string>
-		<string>0048</string>
-		<string>0049</string>
-		<string>0050</string>
-		<string>0051</string>
-		<string>0052</string>
-		<string>0053</string>
-		<string>0054</string>
-		<string>0055</string>
-		<string>0056</string>
-		<string>0057</string>
-		<string>0058</string>
-		<string>0059</string>
-		<string>0060</string>
-		<string>0061</string>
-		<string>0062</string>
-		<string>0063</string>
-		<string>0064</string>
-		<string>0065</string>
-	</array>
+	<real>486560444.82832903</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1029,7 +894,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/ferodss/dotfiles/iterm2</string>
+	<string>/Users/ferodss/Projects/dotfiles/iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1042,14 +907,12 @@
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
-	<key>SUFeedAlternateAppNameKey</key>
-	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml?shard=36</string>
+	<string>https://iterm2.com/appcasts/testing.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-05-31T09:48:18Z</date>
+	<date>2016-06-02T11:36:37Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1091,7 +954,7 @@
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
-	<string>.Helvetica Neue DeskInterface</string>
+	<string>.AppleSystemUIFont</string>
 	<key>Window Arrangements</key>
 	<dict>
 		<key>Default</key>
@@ -1101,18 +964,10 @@
 				<integer>140</integer>
 				<key>Desired Rows</key>
 				<integer>60</integer>
-				<key>Has Toolbelt</key>
-				<false/>
 				<key>Height</key>
 				<real>939</real>
 				<key>Hide After Opening</key>
 				<false/>
-				<key>Hiding Toolbelt Should Resize Window</key>
-				<true/>
-				<key>Is Hotkey Window</key>
-				<false/>
-				<key>Saved Window Type</key>
-				<integer>0</integer>
 				<key>Screen</key>
 				<integer>1</integer>
 				<key>Selected Tab Index</key>
@@ -1126,7 +981,7 @@
 							<array>
 								<dict>
 									<key>Is Active</key>
-									<integer>1</integer>
+									<true/>
 									<key>Session</key>
 									<dict>
 										<key>Bookmark</key>
@@ -1867,44 +1722,10 @@
 											<key>Working Directory</key>
 											<string>/Users/ferodss</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>Default</string>
 										<key>Columns</key>
 										<integer>238</integer>
-										<key>Commands</key>
-										<array/>
-										<key>Directories</key>
-										<array/>
-										<key>Environment</key>
-										<dict>
-											<key>PWD</key>
-											<string>/Users/ferodss</string>
-										</dict>
-										<key>Hosts</key>
-										<array/>
-										<key>Is UTF-8</key>
-										<true/>
-										<key>Program</key>
-										<dict>
-											<key>Type</key>
-											<string>Shell Launcher</string>
-										</dict>
 										<key>Rows</key>
 										<integer>55</integer>
-										<key>Server PID</key>
-										<integer>800</integer>
-										<key>Session Default Name</key>
-										<string>Default</string>
-										<key>Session GUID</key>
-										<string>0FC0CABC-0B26-445B-9104-824634D8FB10</string>
-										<key>Session Name</key>
-										<string>Default</string>
-										<key>Session Window Title</key>
-										<string>Default</string>
-										<key>Shell Integration Ever Used</key>
-										<false/>
-										<key>Substitutions</key>
-										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/ferodss</string>
 									</dict>
@@ -1913,7 +1734,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>674</real>
+										<real>675</real>
 										<key>width</key>
 										<real>1200</real>
 										<key>x</key>
@@ -1924,7 +1745,7 @@
 								</dict>
 								<dict>
 									<key>Is Active</key>
-									<integer>0</integer>
+									<false/>
 									<key>Session</key>
 									<dict>
 										<key>Bookmark</key>
@@ -2665,46 +2486,10 @@
 											<key>Working Directory</key>
 											<string>/Users/ferodss</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>Default</string>
 										<key>Columns</key>
 										<integer>238</integer>
-										<key>Commands</key>
-										<array/>
-										<key>Directories</key>
-										<array/>
-										<key>Environment</key>
-										<dict>
-											<key>PWD</key>
-											<string>/Users/ferodss</string>
-										</dict>
-										<key>Hosts</key>
-										<array/>
-										<key>Is UTF-8</key>
-										<true/>
-										<key>Program</key>
-										<dict>
-											<key>Command</key>
-											<string>login -fp "ferodss"</string>
-											<key>Type</key>
-											<string>Command</string>
-										</dict>
 										<key>Rows</key>
 										<integer>19</integer>
-										<key>Server PID</key>
-										<integer>1155</integer>
-										<key>Session Default Name</key>
-										<string>Default</string>
-										<key>Session GUID</key>
-										<string>6BA09831-952E-49B0-A2A1-12DBC304A721</string>
-										<key>Session Name</key>
-										<string>Default</string>
-										<key>Session Window Title</key>
-										<string>Default</string>
-										<key>Shell Integration Ever Used</key>
-										<false/>
-										<key>Substitutions</key>
-										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/ferodss</string>
 									</dict>
@@ -2719,7 +2504,7 @@
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>675</real>
+										<real>676</real>
 									</dict>
 								</dict>
 							</array>
@@ -2728,7 +2513,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>916</real>
+								<real>917</real>
 								<key>width</key>
 								<real>1200</real>
 								<key>x</key>
@@ -2750,7 +2535,7 @@
 				<key>X Origin</key>
 				<real>1280</real>
 				<key>Y Origin</key>
-				<real>-453</real>
+				<real>-597</real>
 			</dict>
 		</array>
 	</dict>
@@ -2765,6 +2550,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20160523</string>
+	<string>2.1.4</string>
 </dict>
 </plist>
