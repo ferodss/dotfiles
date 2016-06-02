@@ -13,6 +13,14 @@ fi
 # Vim as default editor
 export EDITOR="vim"
 
+if [ -f /usr/local/share/git-core/contrib/completion/git-completion.bash ]; then
+	. /usr/local/share/git-core/contrib/completion/git-completion.bash
+fi
+
+if [ -f /usr/local/share/git-core/contrib/completion/git-prompt.sh ]; then
+	. /usr/local/share/git-core/contrib/completion/git-prompt.sh
+fi
+
 # PS1 customized
 if [ -f $HOME/.bash_ps1 ]; then
     source $HOME/.bash_ps1
