@@ -1,24 +1,17 @@
 
-# Tmux sessions
-if [[ -z "$TMUX" ]]; then
-    tmux new-session -d -s me
-    tmux new-session -d -s vaniday-api
-    tmux new-session -d -s vaniday-admin
-    tmux new-session -d -s vaniday-calendar
-    tmux new-session -d -s vaniday-payment
-    tmux select-window -t me:0
-    tmux attach-session -t me
+if [ -f $HOME/.bash_aliases ]; then
+    . $HOME/.bash_aliases
 fi
 
 # Vim as default editor
 export EDITOR="vim"
 
 if [ -f /usr/local/share/git-core/contrib/completion/git-completion.bash ]; then
-	. /usr/local/share/git-core/contrib/completion/git-completion.bash
+    . /usr/local/share/git-core/contrib/completion/git-completion.bash
 fi
 
 if [ -f /usr/local/share/git-core/contrib/completion/git-prompt.sh ]; then
-	. /usr/local/share/git-core/contrib/completion/git-prompt.sh
+    . /usr/local/share/git-core/contrib/completion/git-prompt.sh
 fi
 
 # PS1 customized
@@ -29,7 +22,6 @@ fi
 # Colored ls
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-alias ls='ls -GFh'
 
 # bash_completion from Homebrew
 if [ -f $(brew --prefix)/etc/bash_completion  ]; then
@@ -38,13 +30,15 @@ fi
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/gettext/bin:$PATH"
 
 # Enable xDebug from command line
 export XDEBUG_CONFIG="idekey=PHPSTORM"
-
-alias grep="grep --color=auto"
-alias phps="php -S 127.0.0.1:9000"
+export XDEBUG_REMOTE_HOST="docker.for.mac.localhost"
 
 # PHPBrew
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
+# Golang
+export GOPATH=$HOME/Projects/go
+export PATH=$GOPATH/bin:$PATH

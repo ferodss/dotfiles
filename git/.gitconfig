@@ -2,7 +2,7 @@
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
 [core]
-	excludesfile = /Users/ferodss/.gitignore
+	excludesfile = $HOME/.gitignore
     editor = vim
 [color]
     diff = auto
@@ -14,3 +14,11 @@
     watch-tree = "!watch -c -t -n 5 'clear && git fetch origin && git log origin/master --pretty=\"%Cred%h%C(yellow) %<(15,trunc)%an%x09%Cgreen%ar%Creset%x09%<(65,trunc)%s\" --graph --color'"
 [push]
 	default = matching
+[user]
+    name = Felipe Rodrigues
+    email = lfrs.web@gmail.com
+[commit]
+    template = $HOME/.git_commit_template
+[pull]
+    rebase = true
+
