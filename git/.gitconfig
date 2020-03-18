@@ -18,7 +18,7 @@
     name = Felipe Rodrigues
     email = lfrs.web@gmail.com
 [commit]
-    template = $HOME/.git_commit_template
+    template = ~/.gitmessage
 [pull]
     rebase = true
 
