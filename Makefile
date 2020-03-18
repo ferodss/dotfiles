@@ -1,10 +1,6 @@
 PWD:=$(shell pwd)
 
-install: _bash _git _vim
-
-_bash:
-	@ln -sf ${PWD}/.bash_profile ${HOME}
-	@ln -sf ${PWD}/.bash_ps1 ${HOME}
+install: _git _vim
 
 _git:
 	@ln -sf ${PWD}/git/.gitconfig ${HOME}
@@ -12,7 +8,6 @@ _git:
 	@ln -sf ${PWD}/git/.gitmessage ${HOME}
 	@ln -sf ${PWD}/git/.git-prompt.sh ${HOME}
 	@ln -sf ${PWD}/git/.git-completion.bash ${HOME}
-
 
 _vim:
 	@mkdir -p ${HOME}/.vim/bundle
