@@ -25,6 +25,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'ctrlpvim/ctrlp.vim'
 " Plugin 'vim-vdebug/vdebug'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'dag/vim-fish'
 
 
 " All of your Plugins must be added before the following line

@@ -1,6 +1,12 @@
 PWD:=$(shell pwd)
 
-install: _git _vim
+install: _fish _git _vim
+
+_fish:
+	@mkdir -p ${HOME}/.config/fish
+	@ln -sf ${PWD}/fish/config.fish ${HOME}/.config/fish/
+	@ln -sf ${PWD}/fish/fish_variables ${HOME}/.config/fish/
+	@ln -sf ${PWD}/fish/functions ${HOME}/.config/fish/
 
 _git:
 	@ln -sf ${PWD}/git/.gitconfig ${HOME}
