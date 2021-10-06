@@ -1,6 +1,11 @@
 PWD:=$(shell pwd)
 
-install: _git _vim
+install: _homebrew _git _vim _zsh
+
+_homebrew:
+	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	@brew update && brew upgrade
+	@brew bundle install --file=${PWD}/Brewfile
 
 _git:
 	@ln -sf ${PWD}/git/.gitconfig ${HOME}
