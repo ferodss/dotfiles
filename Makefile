@@ -3,7 +3,6 @@ PWD:=$(shell pwd)
 install: _homebrew _git _vim _zsh
 
 _homebrew:
-	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	@brew update && brew upgrade
 	@brew bundle install --file=${PWD}/Brewfile
 

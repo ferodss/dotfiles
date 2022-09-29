@@ -10,8 +10,41 @@
     branch = auto
 [alias]
     ec = config --global -e
-	tree = log --graph --decorate --pretty=oneline --abbrev-commit
-    watch-tree = "!watch -c -t -n 5 'clear && git fetch origin && git log origin/master --pretty=\"%Cred%h%C(yellow) %<(15,trunc)%an%x09%Cgreen%ar%Creset%x09%<(65,trunc)%s\" --graph --color'"
+	
+    # give a quick look at the state of the repo
+    state = !git fetch --prune && git fetch --tags && clear && git branch -vv && git status
+
+    # tree = log --graph --decorate --pretty=oneline --abbrev-commit
+	tree    = log --pretty=oneline --all --graph
+	ls      = log --pretty=oneline
+	ll      = log --pretty=oneline --numstat
+
+    # Add files using the message "wip"
+    wip = !"git add --all; git ls-files --deleted -z | xargs -r -0 git rm; git commit --message=wip"
+    # Restore the deleted files to the working tree.
+    unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
+
+    # drop current changes
+    drop = !git reset --hard HEAD
+
+    # force push to the same branch name
+    fp = !git push origin $(git branch --show-current) -f
+    # amend everything in the current commit
+    amend = !git add --all && git commit --amend --no-edit
+
+    # returns the default branch name
+    default = !git symbolic-ref --short refs/remotes/origin/HEAD | sed 's@^origin/@@'
+
+    # Publish the current branch by pushing it to the remote "origin",
+    # and setting the current branch to track the upstream branch.
+    publish = !"git push --set-upstream origin $(git branch --show-current)"
+    # Unpublish the current branch by deleting the
+    # remote version of the current branch.
+    unpublish = !"git push origin :$(git branch --show-current)"
+
+    # clean up a merged branch by updating default branch and deleting the merged one
+    #merged = !curbr = !git rev-parse --abbrev-ref HEAD && git fetch -p && git checkout $(git default) && git pull origin $(default) && git branch -D $(curbr)
+    merged = "!f() { BRANCH=$(git branch --show-current); git fetch -p && git checkout $(git default) && git pull origin $(git default) && git branch -D $BRANCH; }; f"
 [push]
 	default = matching
 [user]

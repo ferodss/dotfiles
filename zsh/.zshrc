@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/feliperodriguez/.oh-my-zsh"
+export ZSH="/Users/feliperodrigues/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -104,11 +104,11 @@ export EDITOR='vim'
 alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 
-# Command highlighting
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # Homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/usr/local/bin/brew shellenv)"
+
+# Command highlighting
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Volta
 export VOLTA_HOME="$HOME/.volta"
@@ -133,3 +133,10 @@ alias rm="rm -vi"
 alias cp="cp -v"
 
 export PATH="$HOME/bin:$PATH"
+
+[ -d "/Applications/Sublime Text.app/Contents/SharedSupport/bin" ] && export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH" 
+
+vaultx() {
+  aws-vault exec $AWS_VAULT_PROFILE -- $@
+}
+

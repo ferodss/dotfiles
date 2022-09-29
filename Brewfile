@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "mutagen-io/mutagen"
+brew "zsh"
 brew "gh"
 brew "git"
 brew "tree"
